@@ -1,0 +1,9 @@
+{
+    "Addr": "127.0.0.1:1211",
+    "Token": "token",
+    "IpDb": "/etc/IpRecorder/DTB-Aiko.BIN",
+    "MasterId": 123,
+    "BotToken": "token",
+    "HistoryIpLimit": 3,
+    "OnlineIpLimit": 3
+}

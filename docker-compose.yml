@@ -5,6 +5,6 @@ services:
     image: ghcr.io/aikocute-offical/iprecorder:latest
     build: . 
     volumes:
-      - ./IpRecorder/:/etc/IpRecorder/ #AikoCute
+      - ./IpRecorder:/etc/IpRecorder/ #AikoCute
     restart: always
     network_mode: host

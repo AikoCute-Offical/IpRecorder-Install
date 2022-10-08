@@ -1,8 +1,10 @@
-version: '3.8'
+version: '3.3'
 services: 
   IpRecorder-Docker: 
+    # command: IpRecorder -path /etc/IpRecorder/config.json 
     image: ghcr.io/aikocute-offical/iprecorder:latest
+    build: . 
     volumes:
-      - ./IpRecorder:/etc/IpRecorder/ #AikoCute
+      - ./IpRecorder/:/etc/IpRecorder/ #AikoCute
     restart: always
     network_mode: host

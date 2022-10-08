@@ -3,7 +3,6 @@ services:
   IpRecorder-Docker: 
     # command: IpRecorder -path /etc/IpRecorder/config.json 
     image: ghcr.io/aikocute-offical/iprecorder:latest
-    build: . 
     volumes:
       - ./IpRecorder:/etc/IpRecorder/ #AikoCute
     restart: always
